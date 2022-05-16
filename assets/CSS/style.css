@@ -13,7 +13,7 @@ body {
     margin: 24px;
     cursor: pointer;
     font-size: 24px;
-    background-color: #131414;
+    background-color: #49085a;
     color: white;
   }
   
@@ -25,10 +25,28 @@ body {
     transition: 0.3s;
     width: 20vw;
     background-color: #c4a8ee;
+    justify-content: center;
+    display: block;
   }
   
-  .question-container {
+  .panel {
     padding-top: 20px;
+    display: block;
+    justify-content: center;
   }
   
+.base-timer {
+    position: relative;
+    height: 300px;
+    width: 300px;
+  }
   
+  .base-timer__circle {
+    fill: none;
+    stroke: none;
+  }
+  
+  .base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+  }
